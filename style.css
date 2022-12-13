@@ -1,0 +1,25 @@
+* {
+    background-color: #555;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgba(255, 255, 255, 0.49) ;
+    line-height: 75px ;
+    cursor: pointer;
+    font-size: 75px ;
+    text-align: center;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    
+}
+
+#jeuxContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
